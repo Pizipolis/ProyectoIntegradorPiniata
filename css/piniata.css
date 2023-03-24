@@ -1,0 +1,21 @@
+/* font opensans */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+
+header {
+    background-image: url(/img/stars.jpg);
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+nav {
+    background-color: crimson;
+    font: 200;
+
+}
