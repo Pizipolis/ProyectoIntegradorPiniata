@@ -4,18 +4,220 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 20px;
-    
 }
 
-header {
-    background-image: url(/img/stars.jpg);
-    font-family: sans-serif;
-    text-align: center;
 
+header {
+    background-color: rgb(248, 243, 242);
+    padding: 0px 0;
+
+}
+
+header div img {
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    margin-left: 50px;
+}
+
+header div h1 {
+    color: brown;
+    font-size: 50px;
+    font-weight: 100px;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+header div h2 {
+    background-color: rgb(155, 194, 117);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+
+    background-color: burlywood;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 nav {
     background-color: crimson;
-    font: 200;
+    font-size: 20px;
+}
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: beige;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(103, 5, 25);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(208, 133, 79);
+    padding: 30px;
+}
+
+nav ul li a.activo {
+    background-color: rgb(103, 5, 25);
+}
+
+/*inicio de home*/
+
+.holder {
+    display: flex;
+}
+
+.contenido {
+    justify-content: space-between;
+}
+
+.bienvenida {
+    background-color: rgb(236, 213, 184);
+    width: 30%;
+    text-align: center;
+}
+
+.pasoapaso {
+    width: 70%;
+}
+
+/*fin de inicio*/
+
+/*inicio nosotros*/
+
+.draw img {
+    width: 800px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.historia h2 {
+    text-align: center;
+    color: brown;
+}
+
+.historia p {
+    text-align: center;
+    color: rgb(162, 14, 14);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.historia img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+/*fin de nosotros*/
+
+/*inicio de galeria*/
+
+main h2 {
+    color: rgb(105, 27, 27);
+    text-align: center;
+    text-decoration: wavy;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+
+div .animales {
+    text-align: center;
+}
+
+.animales img {
+    width: 200px;
+}
+
+div .videojuegos {
+    text-align: center;
+}
+
+.videojuegos img {
+    width: 200px;
+}
+
+div .programas {
+    text-align: center;
+}
+
+.programas img {
+    width: 200px;
+}
+
+/*fin galeria*/
+/*inicio contacto*/
+
+.contacto {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contacto img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+
+}
+
+.formulario p {
+    display: block;
+    width: 100%;
+
+}
+
+.formulario p label {
+    background-color: brown;
+    color: rgb(252, 253, 254);
+    width: 100%;
+    
+}
+
+.formulario p input {
+    background-color: rgb(248, 222, 222);
+    width: 100%;
+}
+
+.formulario p textarea {
+    width: 100%; 
 }
